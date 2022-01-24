@@ -1,0 +1,42 @@
+{
+  "qqq": {
+    "name": "Cold Snap",
+    "img": "cast1"
+  },
+  "qqw": {
+    "name": "Ghost walk",
+    "img": "cast2"
+  },
+  "qqe": {
+    "name": "Ice Wall",
+    "img": "cast3"
+  },
+  "www": {
+    "name": "EMP",
+    "img": "cast4"
+  },
+  "wwq": {
+    "name": "Tornado",
+    "img": "cast5"
+  },
+  "wwe": {
+    "name": "Alacrity",
+    "img": "cast6"
+  },
+  "eee": {
+    "name": "Sun strike",
+    "img": "cast7"
+  },
+  "eeq": {
+    "name": "Forge Spirit",
+    "img": "cast8"
+  },
+  "eew": {
+    "name": "Chaos Meteor",
+    "img": "cast9"
+  },
+  "qwe": {
+    "name": "Deafening blast",
+    "img": "cast10"
+  }
+}
