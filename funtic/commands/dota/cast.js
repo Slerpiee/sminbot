@@ -18,11 +18,14 @@ module.exports = {
 
 
     callback: ({ message, args }) => {
-
+        function sortedstr(a) {
+            return a.split('').sort().join('');
+        }
         let cast = NaN
 
         if (args.length === 1){
-            cast = casts[args[0]]
+            console.log(sortedstr(args[0]))
+            cast = casts[sortedstr(args[0])]
 
         }else if (args.length === 2){
             message.channel.send("Недостаточно данных для каста")
@@ -33,7 +36,8 @@ module.exports = {
             args.forEach(function (item, i, arr){
                 c += item
             })
-            cast = casts[c]
+            console.log(sortedstr(c))
+            cast = casts[sortedstr(c)]
 
 
         }
